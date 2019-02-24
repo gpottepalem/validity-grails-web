@@ -1,4 +1,6 @@
 # Overview
+[![Build Status](https://travis-ci.org/gpottepalem/validity-grails-web.svg?branch=master)](https://travis-ci.org/gpottepalem/validity-grails-web)
+
 This is a simple Gails 3 web application with one controller (`CustomerController`) with one action (`index`) which loads
 a csv file with customer data, processes it and lists potential duplicates and non-duplicates found.
 
