@@ -22,7 +22,10 @@ List customers data processed (xml) : `curl http://localhost:8080/customer?forma
 ## Tests
 ### Running
 Simply run the following command from the main project directory to run all unit/integration/functional tests:  
-`./grailsw test-app`
+`./grailsw clean`  
+`./grailsw test-app`  
+or  
+`./gradlew clean test`
 ### Test Reports
 Simply run the following command from the main project directory or point your browser to the following
 `build/reports/...` directory:  
