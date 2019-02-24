@@ -20,7 +20,7 @@ class MetaPhoneAlgorithm implements AlgorithmTrait {
     @Override
     String computePhoneticPhrase(Customer customer) {
         log.debug "maxCodecLength: $maxCodecLength"
-        metaphone.setMaxCodeLen(maxCodecLength)
+        metaphone.setMaxCodeLen(maxCodecLength ?: 3)
         customer.phoneticPhrase = metaphone.metaphone(customer?.firstName) + metaphone.metaphone(customer?.lastName)
         customer.phoneticPhrase
     }
