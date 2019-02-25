@@ -1,0 +1,2 @@
+grails-app/assets/* linguist-vendored
+*.groovy linguist-language=Groovy
