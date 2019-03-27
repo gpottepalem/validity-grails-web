@@ -7,7 +7,8 @@ import org.springframework.beans.factory.annotation.Value
 /**
  * A concrete implementation of {@link AlgorithmTrait} using {@Metaphone}
  *
- * @author gpottepalem* Created on Feb 24, 2019
+ * @author gpottepalem
+ * Created on Feb 24, 2019
  */
 @Log4j
 class MetaPhoneAlgorithm implements AlgorithmTrait {
